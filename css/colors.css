@@ -13,7 +13,7 @@ input.form-text {
 
 /* ***** REGION-ACTION-SEARCH ***** */
 
-.region-action-user-inner,
+#region-action-user,
 #block-user-login,
 #block-search-form {
     background-color: #E94928;
@@ -32,6 +32,10 @@ input.form-text {
 
 #block-system-user-menu ul li.last a {
     color: #09A9E1;
+}
+
+.block-ding-username, .block-user-menu {
+    background-color: #E94928;
 }
 
 

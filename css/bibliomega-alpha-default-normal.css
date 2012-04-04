@@ -17,11 +17,33 @@
     margin-right: 0px;
 }
 
+
+/* ***** CAROUSEL ***** */
+
+.ting-search-carousel .rs-carousel {
+    width: 345px;
+    margin-left: 36px;
+}
+
+
+/* ***** BLOCK-USER-LOGIN, BLOCK-SEARCH-FORM ***** */
+
+.not-logged-in #block-user-login, .not-logged-in #block-search-form {
+  height: 2.6em;
+}
+
+.logged-in #block-user-login, .logged-in #block-search-form {
+  height: 4.6em;
+}
+
+.logged-in .region-action-user-inner {
+  height: 4.6em;
+}
+
 #block-search-form, #block-user-login {
     padding-left: 1em;
     padding-right: 1em;
 }
-
 
 #block-user-login .lead-text {
   width: 70px;
@@ -46,5 +68,4 @@
 #user-login-form {
   float: right;
 }
-
 

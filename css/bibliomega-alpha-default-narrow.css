@@ -14,12 +14,14 @@
   background: transparent url(../img/bg/bg_body_720.png) no-repeat center top;
 }
 
+
+/* ***** BLOCK-USER-LOGIN, BLOCK-SEARCH-FORM ***** */
+
 #region-action-search, #region-action-user {
     width: 700px;
     margin-left: 10px;
     margin-right: 10px;
 }
-
 
 #block-user-login .lead-text {
   width: 70px;
@@ -38,6 +40,10 @@
   width: 75px;
 }
 
+.block-ding-username {
+  padding-left: 1em;
+}
+
 
 /* *** CAMPAIGN *** */
 
@@ -46,33 +52,10 @@
 }
 
 
-/* *** PANELS *** change to Omega panels *** */
+/* *** CAROUSEL *** */
 
-/*
-.front .panel-2col-stacked .panel-col-top {
-  display: block;
+.ting-search-carousel .rs-carousel {
+    width: 230px;
+    margin-left: 45px;
 }
 
-.panel-2col-stacked .panel-col-first {
-  width: 70%
-}
-
-.panel-2col-stacked .panel-col-last {
-  width: 30%;
-  display: block;
-}
-
-.panel-3col .panel-col {
-    width: 50%;
-}
-
-.panel-3col .panel-col-first {
-    width: 25%;
-}
-
-.panel-3col .panel-col-last {
-    width: 25%;
-    display: block;
-}
-
-*/

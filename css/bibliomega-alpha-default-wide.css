@@ -9,6 +9,28 @@
 }
 
 
+/* ***** CAROUSEL ***** */
+
+.ting-search-carousel .rs-carousel {
+    width: 440px;
+    margin-left: 44px;
+}
+
+
+/* ***** BLOCK-USER-LOGIN, BLOCK-SEARCH-FORM ***** */
+
+.not-logged-in #block-user-login, .not-logged-in #block-search-form {
+  height: 2.6em;
+}
+
+.logged-in #block-user-login, .logged-in #block-search-form {
+  height: 4.6em;
+}
+
+.logged-in .region-action-user-inner {
+  height: 4.6em;
+}
+
 #block-user-login .lead-text {
   width: 70px;
 }
@@ -28,5 +50,4 @@
 #block-search-form .form-actions {
   width: 60px;
 }
-
 

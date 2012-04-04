@@ -1,13 +1,5 @@
 /* This file will hold the main styles for your website. */
 
-/* LESS */
-/*
-@color: #4D926F;
-h2 {
-  color: @color;
-}
-*/
-
 
 /* BASIC STYLES */
 
@@ -101,6 +93,9 @@ input.form-submit {
     display: none;
 }
 
+.ting-search-carousel .subtitle {
+    display: none;
+}
 
 /* ***** PRIMARY TABS ***** */
 
@@ -376,11 +371,11 @@ input.form-submit {
 }
 
 .logged-in #block-user-login, .logged-in #block-search-form {
-  height: 4.6em;
+  height: 2.6em;
 }
 
 .logged-in .region-action-user-inner {
-  height: 4.6em;
+  height: 2.6em;
 }
 
 #block-user-login span,
@@ -471,7 +466,7 @@ input.form-submit {
 }
 
 #block-ding-user-frontend-ding-username {
-    height: 2.4em;
+    height: 2.6em;
     padding-top: 0em;
 }
 

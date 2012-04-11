@@ -16,7 +16,8 @@ input.form-text {
 .region-action-user-inner,
 #block-user-login,
 #block-search-form {
-    background-color: #E94928;
+ /*   background-color: #E94928;*/
+background-color:#CCCCCC
 }
 
 .region-action-user-inner,

@@ -46,7 +46,7 @@ function bibliomega_form_alter(&$form, &$form_state, $form_id) {
       $form['name']['#attributes']['placeholder'] = t('Username');
       $form['name']['#type'] = 'password';
       $form['pass']['#attributes']['placeholder'] = t('Password');
-      $form['links']['#markup'] = "";
+      //$form['links']['#markup'] = "";
       break;
     case 'search_block_form':
       $form['search_block_form']['#size'] = '25';

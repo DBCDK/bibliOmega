@@ -1,3 +1,3 @@
 <?php
-drupal_goto('user/password_reset');
+drupal_goto('user/create_login');
 ?>

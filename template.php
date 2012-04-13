@@ -37,7 +37,7 @@ function bibliomega_form_alter(&$form, &$form_state, $form_id) {
   switch ($form_id) {
     // add a login link to the horizontal login bar block
     case 'user_login':
-//      $form['name']['#type'] = 'password';
+      $form['name']['#type'] = 'password';
       break;
     case 'user_login_block':
 //pjo styling for bibdk

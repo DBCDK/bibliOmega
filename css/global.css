@@ -357,8 +357,8 @@ input.form-submit {
 /* ***** REGION-ACTION-SEARCH ***** */
 
 #block-search-form, #block-user-login {
-    padding-left: 1em;
-    padding-right: 1em;
+/*    padding-left: 1em;
+    padding-right: 1em;*/
 }
 
 
@@ -371,9 +371,45 @@ input.form-submit {
 
 /* ***** BLOCK-USER-LOGIN, BLOCK-SEARCH-FORM ***** */
 
-.not-logged-in #block-user-login, .not-logged-in #block-search-form {
-  height: 2.6em;
+/*temp*/
+#edit-name--2 {
+display:none;
 }
+
+
+
+
+.not-logged-in #block-user-login, .not-logged-in #block-search-form {
+/* pjo styling for bibdk */
+/*  height: 2.6em;*/
+}
+
+#block-user-login {
+width:60%;
+float:right;
+}
+
+#block-user-login .bibdk-provider-form-links a {
+display:block;
+}
+
+#block-user-login .bibdk-provider-form-links {
+float:right;
+margin-top:2.5em;
+}
+
+#block-user-login input[type="submit"] {
+float:right;
+position:relative;
+right:-5em;
+}
+
+#block-user-login .bibdk-provider-form-inputs {
+margin:0;
+padding:0;
+float:left;
+}
+
 
 .logged-in #block-user-login, .logged-in #block-search-form {
   height: 4.6em;
@@ -416,7 +452,8 @@ input.form-submit {
 #block-search-form .form-item {
   margin: 0;
   padding: 0.5em 0.5em 0.25em 0;
-  float: left;
+/* pjo styling for bibdk */
+/*  float: left; */
   /* outline: 1px solid black; */
 }
 
@@ -428,12 +465,12 @@ input.form-submit {
   /* outline: 1px solid black; */
 }
 
-#block-user-login .form-item {
+/*#block-user-login .form-item {
   width: 35%;
 }
 #block-user-login .form-actions {
   width: 25%;
-}
+}*/
 
 #block-search-form .form-item {
   width: 71%;
@@ -442,8 +479,8 @@ input.form-submit {
   width: 25%;
 }
 
-#block-search-form .form-item-search-block-form input,
-#block-user-login .form-item input {
+#block-search-form .form-item-search-block-form input {
+/*#block-user-login .form-item input {*/
   width: 100%;
 }
 

@@ -37,15 +37,18 @@ function bibliomega_form_alter(&$form, &$form_state, $form_id) {
   switch ($form_id) {
     // add a login link to the horizontal login bar block
     case 'user_login':
-      $form['name']['#type'] = 'password';
+//      $form['name']['#type'] = 'password';
       break;
     case 'user_login_block':
-      $form['name']['#prefix'] = '<span class="lead-text">'.t('Log in:').'</span>';
-      $form['actions']['submit']['form_id']['#suffix'] = '<div class="clearfix"></div>';
+//pjo styling for bibdk
+      //$form['name']['#prefix'] = '<span class="lead-text">'.t('Log in:').'</span>';
+//      $form['actions']['submit']['form_id']['#suffix'] = '<div class="clearfix"></div>';
       // HTML5 placeholder attribute
       $form['name']['#attributes']['placeholder'] = t('Username');
       $form['name']['#type'] = 'password';
       $form['pass']['#attributes']['placeholder'] = t('Password');
+      // dpm(debug_backtrace());
+      //dpm($form['links']);
       //$form['links']['#markup'] = "";
       break;
     case 'search_block_form':
@@ -63,7 +66,6 @@ function bibliomega_form_alter(&$form, &$form_state, $form_id) {
       break;
   }
 }
-
 
 /**
  * Overriding theme_breadcrumb().

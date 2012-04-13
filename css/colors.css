@@ -14,10 +14,15 @@ input.form-text {
 /* ***** REGION-ACTION-SEARCH ***** */
 
 .region-action-user-inner,
-#block-user-login,
+/*#block-user-login,*/
 #block-search-form {
- /*   background-color: #E94928;*/
-background-color:#CCCCCC
+/*   background-color: #E94928;*/
+background-color:#CCCCCC;
+}
+
+/*pjo styling for bibdk*/
+#block-user-login {
+background-color:#669933;
 }
 
 .region-action-user-inner,

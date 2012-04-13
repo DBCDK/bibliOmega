@@ -21,7 +21,8 @@
 
 #block-user-login .lead-text {
   width: 70px;
-  display: block;
+/* pjo; display does not belong here */
+/*  display: block; */
 }
 #block-user-login .form-item {
   width: 140px;

@@ -1,13 +1,5 @@
 /* This file will hold the main styles for your website. */
 
-/* LESS */
-/*
-@color: #4D926F;
-h2 {
-  color: @color;
-}
-*/
-
 
 /* BASIC STYLES */
 
@@ -101,6 +93,9 @@ input.form-submit {
     display: none;
 }
 
+.ting-search-carousel .subtitle {
+    display: none;
+}
 
 /* ***** PRIMARY TABS ***** */
 
@@ -278,60 +273,56 @@ input.form-submit {
 
 /* ***** REGION-MENU ***** */
 
+
 #zone-menu {
     padding-bottom: 2px;
-    background-color: #09A9E0;
-    font-size: 1.1em;
+    font-size: 0.8em;
     border-top-color: #E2E2E2;
     border-top-width: 1px;
     border-top-style: solid;
 }
 
 #region-menu {
-    width: 100%;
-    margin: 0;
+    margin: 0 1em;
     padding: 0;
+}
+
+#region-menu h2 {
+    display: none;
 }
 
 #region-menu .region-inner {
     background-color: #ffffff;
 }
 
-#region-menu .region-inner li a {
-    color: #625F5F;
-    text-decoration: none;
+#region-menu .links ul {
+    list-style: none;
 }
 
-#region-menu .region-inner li {
-    line-height: 2em;
+#region-menu ul li {
+    line-height: 1em;
     margin: 0.2em 0 0;
     padding: 0.5em 0.5em 0.3em;
+    display: inline-block;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
 }
 
-
-#region-menu .links ul {
-  list-style: none;
+#region-menu ul li.first {
+    margin-left: .4em;
 }
 
-#region-menu .links li {
-  display: inline-block;
-  font-size: 1.1em;
-  margin: 0;
-  padding: 0;
+#region-menu ul li a {
+    color: #625F5F;
+    text-decoration: none;
+    display:inline-block;
+    padding: 0em .5em 0em .5em;
+    margin: 0;
 }
 
-#region-menu .links li a {
-  display:inline-block;
-  padding: 0em .5em 0em .5em;
-  margin: 0;
-}
-
-#region-menu .links li.first {
-  margin-left: .4em;
-}
-
-#region-menu .links li a:hover {
-  text-decoration: none;
+#region-menu ul li a:hover {
+    text-decoration: none;
 }
 
 
@@ -340,6 +331,7 @@ input.form-submit {
 
 #block-locale-language {
     text-align: right;
+    float: left;
 }
 
 #block-locale-language ul {
@@ -352,6 +344,51 @@ input.form-submit {
   float: right;
   margin-right: 0.5em;
 }
+
+
+#region-help #block-menu-menu-bibliotek-dk-meta-menu {
+    float: right;
+}
+
+#region-help #block-menu-menu-bibliotek-dk-meta-menu h2 {
+    display: none;
+}
+
+#region-help .region-inner {
+    background-color: #ffffff;
+}
+
+#region-help ul {
+    margin-top: 1.2em;
+    font-size: 0.8em;
+    list-style: none;
+}
+
+#region-help ul li {
+    line-height: 1em;
+    margin: 0.2em 0 0;
+    padding: 0.5em 0.5em 0.3em;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#region-help ul li.first {
+    margin-left: .4em;
+}
+
+#region-help ul li a {
+    color: #625F5F;
+    text-decoration: none;
+    display:inline-block;
+    padding: 0em .5em 0em .5em;
+    margin: 0;
+}
+
+#region-help ul li a:hover {
+    text-decoration: none;
+}
+
 
 
 /* ***** REGION-ACTION-SEARCH ***** */
@@ -412,11 +449,11 @@ float:left;
 
 
 .logged-in #block-user-login, .logged-in #block-search-form {
-  height: 4.6em;
+  height: 2.6em;
 }
 
 .logged-in .region-action-user-inner {
-  height: 4.6em;
+  height: 2.6em;
 }
 
 #block-user-login span,
@@ -508,7 +545,7 @@ float:left;
 }
 
 #block-ding-user-frontend-ding-username {
-    height: 2.4em;
+    height: 2.6em;
     padding-top: 0em;
 }
 

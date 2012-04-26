@@ -13,16 +13,18 @@ input.form-text {
 
 /* ***** REGION-ACTION-SEARCH ***** */
 
-.region-action-user-inner,
+/*.region-action-user-inner,*/
 /*#block-user-login,*/
+#region-action-user,
+#block-user-login,
 #block-search-form {
-/*   background-color: #E94928;*/
-background-color:#CCCCCC;
+  /*   background-color: #E94928;*/
+  background-color:#CCCCCC;
 }
 
-/*pjo styling for bibdk*/
+/* pjo styling for bibdk */
 #block-user-login {
-background-color:#669933;
+  background-color:#669933;
 }
 
 .region-action-user-inner,
@@ -38,6 +40,10 @@ background-color:#669933;
 
 #block-system-user-menu ul li.last a {
     color: #09A9E1;
+}
+
+.block-ding-username, .block-user-menu {
+    background-color: #E94928;
 }
 
 

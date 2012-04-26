@@ -13,11 +13,12 @@
     margin-right: 0px;
 }
 
+/* ***** BLOCK-USER-LOGIN, BLOCK-SEARCH-FORM ***** */
+
 #block-search-form, #block-user-login {
     padding-left: 1em;
     padding-right: 1em;
 }
-
 
 #block-user-login .lead-text {
   width: 70px;
@@ -37,5 +38,4 @@
 #block-search-form .form-actions {
   width: 50px;
 }
-
 

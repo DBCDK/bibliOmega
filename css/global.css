@@ -273,7 +273,7 @@ input.form-submit {
 
 /* ***** REGION-MENU ***** */
 
-#block-menu-menu-search-menu {
+#block-menu-menu-search-menu, #block-menu-menu-bibliotek-dk-search-menu {
   float: left;
 }
 

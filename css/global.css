@@ -273,6 +273,13 @@ input.form-submit {
 
 /* ***** REGION-MENU ***** */
 
+#block-menu-menu-search-menu {
+  float: left;
+}
+
+#block-menu-menu-bibliotek-dk-user-menu {
+  float: right;
+}
 
 #zone-menu {
     padding-bottom: 2px;

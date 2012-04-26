@@ -29,7 +29,7 @@
 /* ***** BLOCK-USER-LOGIN, BLOCK-SEARCH-FORM ***** */
 
 .not-logged-in #block-user-login, .not-logged-in #block-search-form {
-  height: 2.6em;
+  height: 5.6em;
 }
 
 .logged-in #block-user-login, .logged-in #block-search-form {

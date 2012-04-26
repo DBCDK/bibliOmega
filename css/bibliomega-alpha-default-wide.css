@@ -4,7 +4,11 @@
   background: transparent url(../img/bg/bg_body_1200.png) no-repeat center top;
 }
 
-#region-action-search, #region-action-user {
+#region-action-search {
+    width: 590px;
+}
+
+#region-action-user {
     width: 590px;
 }
 
@@ -20,7 +24,7 @@
 /* ***** BLOCK-USER-LOGIN, BLOCK-SEARCH-FORM ***** */
 
 .not-logged-in #block-user-login, .not-logged-in #block-search-form {
-  height: 2.6em;
+  height: 5.6em;
 }
 
 .logged-in #block-user-login, .logged-in #block-search-form {

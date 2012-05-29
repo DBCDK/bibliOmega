@@ -26,17 +26,20 @@
 }
 
 
-/* ***** BLOCK-USER-LOGIN, BLOCK-SEARCH-FORM ***** */
+/* ***** BLOCK-USER-LOGIN ***** */
 
 #user-login-form {
-  float: right;
+}
+
+#block-user-login .bibdk-provider-form-inputs {
+  width: 340px
 }
 
 #block-user-login .lead-text {
   width: 70px;
 }
 
-#block-user-login .form-item {
+#block-user-login .bibdk-provider-form-inputs .form-item {
   width: 160px;
 }
 
@@ -44,6 +47,8 @@
   width: 70px;
 }
 
+
+/* ***** BLOCK-SEARCH-FORM ***** */
 
 #block-search-form .form-item.form-type-textfield {
   width: 380px;

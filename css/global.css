@@ -124,6 +124,68 @@ input.form-submit {
 
 /* ********** REGION-ACTION-USER ********** */
 
+/* ***** BLOCK-USER-LOGIN ***** */
+
+/* pjo:temp */
+#block-user-login #edit-name--2 {
+    display:none;
+}
+
+/* ** forgot password ** */
+#block-user-login .bibdk-provider-form-links {
+    clear: both;
+}
+#block-user-login .bibdk-provider-form-links a {
+    display:block;
+}
+
+#block-user-login input[type="submit"] {
+}
+
+#block-user-login .bibdk-provider-form-inputs {
+    margin:0;
+    padding:0;
+    float: left;
+}
+
+#block-user-login .bibdk-provider-form-inputs .form-item {
+    margin: 0;
+    padding: 0.5em 0.5em 0.25em 0;
+    float: left;
+}
+
+#block-user-login .form-actions {
+    margin: 0;
+    padding: 0.5em 0em 0.25em 0;
+    float: left;
+}
+
+
+#block-user-login span {
+    display : block;
+    float: left;
+}
+
+#block-user-login .lead-text {
+    display: none; /* displayed on narrow and up */
+}
+
+#block-user-login form label {
+    display : none;
+}
+
+#block-user-login form div.form-item-persistent-login label {
+    display : inline;
+}
+
+#block-user-login form div.form-item-persistent-login {
+    margin: 0em;
+}
+
+
+
+/* ***** BLOCK-USER-MENU ***** */
+
 .block-user-menu .links ul {
     list-style: none;
 }

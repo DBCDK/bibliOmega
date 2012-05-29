@@ -15,22 +15,31 @@
 }
 
 
-/* ***** BLOCK-USER-LOGIN, BLOCK-SEARCH-FORM ***** */
+/* ***** BLOCK-USER-LOGIN ***** */
+
+#block-user-login .lead-text {
+  width: 70px;
+}
+
+#block-user-login .bibdk-provider-form-inputs .form-item {
+  width: 250px;
+}
+
+#block-user-login .form-actions {
+  width: 65px;
+}
+
+.block-ding-username {
+  padding-left: 1em;
+}
+
+
+/* ***** BLOCK-SEARCH-FORM ***** */
 
 #region-action-search, #region-action-user {
     width: 700px;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-#block-user-login .lead-text {
-  width: 70px;
-}
-#block-user-login .form-item {
-  width: 250px;
-}
-#block-user-login .form-actions {
-  width: 65px;
 }
 
 #block-search-form .form-item.form-type-textfield {
@@ -39,10 +48,6 @@
 
 #block-search-form #edit-actions {
   width: 90px;
-}
-
-.block-ding-username {
-  padding-left: 1em;
 }
 
 

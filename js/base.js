@@ -12,6 +12,7 @@
     $('input[placeholder],textarea[placeholder]').placeholder();
 
     /* add rounded-corners class to buttons, input fields, etc. */
+    /*
     $("input").filter("[type!='hidden']").filter("[type!='radio']").filter("[type!='checkbox']").addClass('rounded-corners');
     $(".field-type-ding-entity-buttons p.ding-entity-button").addClass('rounded-corners');
     $("p.ding-entity-button").addClass('rounded-corners');
@@ -21,6 +22,7 @@
     $("#block-system-user-menu > div > div > ul > li.last").addClass('rounded-corners');
     $(".comment ul li").addClass('rounded-corners');
     $("li.comment-add").addClass('rounded-corners');
+    */
 
 
     /* Checkbox overlay with hover-text from input[title] on disabled checkboxes */

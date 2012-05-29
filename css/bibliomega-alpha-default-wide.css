@@ -23,18 +23,6 @@
 
 /* ***** BLOCK-USER-LOGIN, BLOCK-SEARCH-FORM ***** */
 
-.not-logged-in #block-user-login, .not-logged-in #block-search-form {
-  height: 5.6em;
-}
-
-.logged-in #block-user-login, .logged-in #block-search-form {
-  height: 4.6em;
-}
-
-.logged-in .region-action-user-inner {
-  height: 4.6em;
-}
-
 #block-user-login .lead-text {
   width: 70px;
 }
@@ -47,11 +35,11 @@
   width: 70px;
 }
 
-#block-search-form .form-item {
-  width: 450px;
+#block-search-form .form-item.form-type-textfield {
+  width: 480px;
 }
 
-#block-search-form .form-actions {
-  width: 60px;
+#block-search-form #edit-actions {
+  width: 90px;
 }
 

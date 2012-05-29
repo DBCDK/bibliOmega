@@ -33,11 +33,12 @@
   width: 65px;
 }
 
-#block-search-form .form-item {
-  width: 585px;
+#block-search-form .form-item.form-type-textfield {
+  width: 610px;
 }
-#block-search-form .form-actions {
-  width: 75px;
+
+#block-search-form #edit-actions {
+  width: 90px;
 }
 
 .block-ding-username {

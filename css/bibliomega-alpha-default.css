@@ -15,15 +15,10 @@
 
 /* ***** BLOCK-USER-LOGIN, BLOCK-SEARCH-FORM ***** */
 
-#block-search-form, #block-user-login {
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
 #block-user-login .lead-text {
   width: 70px;
-/* pjo; display does not belong here */
-/*  display: block; */
+  /* pjo; display does not belong here */
+  /*  display: block; */
 }
 #block-user-login .form-item {
   width: 140px;

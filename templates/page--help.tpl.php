@@ -9,8 +9,10 @@
 
       <div<?php print $attributes; ?>>
         <?php if (isset($page['header'])) : ?>
-          <?php print render($page['header']['header']['branding']); ?>
-          <?php print render($page['header']['header']['help']); ?>
+          <div id="zone-header" class="zone zone-header clearfix container-24">
+            <?php print render($page['header']['header']['branding']); ?>
+            <?php print render($page['header']['header']['help']); ?>
+          </div>
         <?php endif; ?>
 
         <?php if (isset($page['content'])) : ?>

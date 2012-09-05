@@ -55,6 +55,16 @@ input.form-submit {
 
 /* ********** REGION-HELP ********** */
 
+
+div#region-branding {
+    float: left;
+}
+
+div.block-language {
+    float: left;
+}
+
+
 /* ***** LANGUAGE SWITCHER BLOCK ***** */
 
 #block-locale-language {

@@ -89,3 +89,11 @@ function bibliomega_links__library_menu(&$variables) {
   return '<div class="wrapper">' . theme('links', $variables) . '</div>';
 }
 
+
+function bibliomega_preprocess_page(&$vars, $hook) {
+  if (isset($vars['node'])) {
+  // If the node type is "blog" the template suggestion will be "page--blog.tpl.php".
+   $vars['theme_hook_suggestions'][] = 'page__'. str_replace('_', '--', $vars['node']->type);
+  }
+}
+
